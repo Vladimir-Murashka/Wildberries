@@ -11,6 +11,11 @@
 		14F4679C2C319B65001DF47E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4679B2C319B65001DF47E /* ContentView.swift */; };
 		14F4679E2C319B66001DF47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F4679D2C319B66001DF47E /* Assets.xcassets */; };
 		14F467A12C319B66001DF47E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F467A02C319B66001DF47E /* Preview Assets.xcassets */; };
+		14F467A82C319CCC001DF47E /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F467A72C319CCC001DF47E /* BackgroundView.swift */; };
+		14F467AA2C319CE0001DF47E /* MediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F467A92C319CE0001DF47E /* MediumView.swift */; };
+		14F467AC2C319D15001DF47E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F467AB2C319D15001DF47E /* CustomButton.swift */; };
+		14F467AE2C319D28001DF47E /* OTPTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F467AD2C319D28001DF47E /* OTPTextFieldModifier.swift */; };
+		14F467B02C319D35001DF47E /* EnterCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F467AF2C319D35001DF47E /* EnterCodeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		14F4679B2C319B65001DF47E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14F4679D2C319B66001DF47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14F467A02C319B66001DF47E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14F467A72C319CCC001DF47E /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		14F467A92C319CE0001DF47E /* MediumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumView.swift; sourceTree = "<group>"; };
+		14F467AB2C319D15001DF47E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		14F467AD2C319D28001DF47E /* OTPTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldModifier.swift; sourceTree = "<group>"; };
+		14F467AF2C319D35001DF47E /* EnterCodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterCodeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				14F4679B2C319B65001DF47E /* ContentView.swift */,
 				14F4679D2C319B66001DF47E /* Assets.xcassets */,
 				14F4679F2C319B66001DF47E /* Preview Content */,
+				14F467A72C319CCC001DF47E /* BackgroundView.swift */,
+				14F467A92C319CE0001DF47E /* MediumView.swift */,
+				14F467AB2C319D15001DF47E /* CustomButton.swift */,
+				14F467AD2C319D28001DF47E /* OTPTextFieldModifier.swift */,
+				14F467AF2C319D35001DF47E /* EnterCodeScreen.swift */,
 			);
 			path = Wildberries;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F467A82C319CCC001DF47E /* BackgroundView.swift in Sources */,
+				14F467B02C319D35001DF47E /* EnterCodeScreen.swift in Sources */,
 				14F4679C2C319B65001DF47E /* ContentView.swift in Sources */,
 				14F4679A2C319B65001DF47E /* WildberriesApp.swift in Sources */,
+				14F467AA2C319CE0001DF47E /* MediumView.swift in Sources */,
+				14F467AE2C319D28001DF47E /* OTPTextFieldModifier.swift in Sources */,
+				14F467AC2C319D15001DF47E /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +300,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +330,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
